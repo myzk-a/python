@@ -3,4 +3,4 @@
 - 加速度(x y z)、角加速度(roll wx wy wz)はそれぞれ一つのぐらふにまとめて、二つのグラフを縦に並べた図を作成する<br>
 - プロットする時間を指定できるようにする<br>
 - 作成例：<br>
- ![alt text](./fig/example.PNG)
+ ![alt text](./fig/example.png)
