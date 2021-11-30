@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 # In[ ]:
 
 
-text = 'Rui chan!!!'             # 画像に追加する文字列を指定
+text = 'RUI chan!!'             # 画像に追加する文字列を指定
 img = Image.open('rui.jpg') # 入力ファイルを指定
 
 imagesize = img.size        # img.size[0]は幅、img.size[1]は高さを表す
