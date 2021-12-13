@@ -1,0 +1,26 @@
+{
+    "name": "Python 3.9",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "python.pythonPath": "/usr/local/bin/python",
+        "python.linting.enabled": true,
+        "python.linting.pylintEnabled": true,
+        "python.linting.pylintPath": "/usr/local/bin/pylint"
+    },
+
+    "postCreateCommand": "sudo pip install -r requirements.txt",
+
+    "remoteUser": "vscode",
+
+    "extensions": [
+        "ms-python.python"
+    ],
+
+    "containerEnv": {
+        "DISPLAY": "0.0"
+    }
+    
+}
