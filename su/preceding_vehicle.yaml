@@ -1,6 +1,0 @@
-train: /home/asm/Projects/python/docker/project/packages/data/train/images
-val: /home/asm/Projects/python/docker/project/packages/data/valid/images
-
-nc: 1
-
-names: ['preceding vehicle']
